@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <script src="https://kit.fontawesome.com/aae5e64645.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- -----home----- -->
+    <div id="home">
+        <div class="head" style="position: fixed;background-color: black;top: 0;display: block;width: 100%;">
+            <nav>
+                <p style="font-size: 40px;display: inline;"><span style="color:#ff004f;font-size: 60px;">S</span>ai <span style="color:#ff004f;font-size: 60px;">P</span>riya.</p>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="home1">
+            <div class="intro">
+                <centre>
+                    <p style="font-size: 190%;margin-top: 7px;color: rgb(181, 170, 170);">Web Developer</p>
+                    <h1 style="font-size: 220%;">Hi, I am <span style="color:#ff004f">Sambareddy Sai Priya</span></h1>
+                </centre>
+            </div>
+            <div class="image1">
+                <img src="./images/img3.jpeg" style="width:50%;border-radius: 100%;">
+            </div>
+        </div>
+        <div style="text-align:right;margin-right: 2%;margin-top: 20px;">
+            <a href="#about"><img src="./images/down2.png" style="width: 4%;"></a>
+        </div>
+    </div>
+    <div style="height:5px;width:100%;background-color: rgb(71, 67, 67);"></div>
+<!-- -----about----- -->
+    <div id="about">
+        <div class="about1">
+            <div class="image2">
+                <img src="./images/img1.jpeg">
+            </div>
+            <div>
+                <p style="font-size: 200%;font-weight: 600;">About Me</p>
+                <p style="color: rgb(191, 183, 183);font-size: 20px;margin-top: 10px;">Web developer with beginner knowledge,working on web technologies and delivering quality work.</p>
+                <div class="list">
+                        <p class="tab activelink" onclick="open1('skills')">Skills</p>
+                        <p class="tab" onclick="open1('education')">Education</p>
+                        <p class="tab" onclick="open1('experience')">Experience</p>
+                </div>
+                <div class="container first" id="skills">
+                    <div style="width: 50%;padding-right: 5%;">
+                        <p style="font-size: 130%;font-weight:300;">Frontend Developer:</p>
+                        <div><br>
+                            <p style="margin-bottom: 5px;">HTML</p>
+                            <div style="background-color:rgb(250, 240, 240);border-radius: 10px;height: 20px;">
+                               <div style="width:70%;background-color: #ff004f;text-align: right;border-radius: 10px;height:20px;">
+                                <p style="font-weight: 600;">70%</p>
+                               </div> 
+                            </div><br>
+                            <p style="margin-bottom: 5px;">CSS</p>
+                            <div style="background-color:rgb(250, 240, 240);border-radius: 10px;height: 20px;">
+                               <div style="width:60%;background-color: #ff004f;text-align: right;border-radius: 10px;height: 20px;">
+                                <p style="font-weight: 600;">60%</p>
+                               </div> 
+                            </div><br>
+                            <p style="margin-bottom: 5px;">JAVASCRIPT</p>
+                            <div style="background-color:rgb(250, 240, 240);border-radius: 10px;height: 20px;">
+                               <div style="width:55%;background-color: #ff004f;text-align: right;border-radius: 10px;height: 20px;">
+                                <p style="font-weight: 600;">55%</p>
+                               </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:50%;padding-left:5%">
+                        <p style="font-size: 130%;font-weight:300;">Programming Languages:</p>
+                        <div><br>
+                            <p style="margin-bottom: 5px;">JAVA</p>
+                            <div style="background-color:rgb(250, 240, 240);border-radius: 10px;height: 20px;">
+                               <div style="width:70%;background-color: #ff004f;text-align: right;border-radius: 10px;height:20px;">
+                                <p style="font-weight: 600;">70%</p>
+                               </div> 
+                            </div><br>
+                            <p style="margin-bottom: 5px;">PYTHON</p>
+                            <div style="background-color:rgb(250, 240, 240);border-radius: 10px;height: 20px;">
+                               <div style="width:55%;background-color: #ff004f;text-align: right;border-radius: 10px;height: 20px;">
+                                <p style="font-weight: 600;">55%</p>
+                               </div> 
+                            </div><br>
+                            <p style="margin-bottom: 5px;">C/C++</p>
+                            <div style="background-color:rgb(250, 240, 240);border-radius: 10px;height: 20px;">
+                               <div style="width:40%;background-color: #ff004f;text-align: right;border-radius: 10px;height: 20px;">
+                                <p style="font-weight: 600;">40%</p>
+                               </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" style="flex-direction: column;" id="education">
+                    <h1 style="color: #ff004f;font-weight: 600;">High School</h1>
+                    <p style="font-size: 23px;margin-top: 5px;color: rgb(177, 186, 186);">Narayana English Medium School</p>
+                    <p style="font-size: 17px;margin-top: 5px;color: rgb(177, 186, 186);">2013-2019</p><br>
+                    <h1 style="color: #ff004f;font-weight: 600;">Intermediate</h1>
+                    <p style="font-size: 17px;margin-top: 5px;color: rgb(177, 186, 186);">Narayana Junior College</p>
+                    <p style="font-size: 17px;margin-top: 5px;color: rgb(177, 186, 186);">2019-2021</p><br>
+                    <h1 style="color: #ff004f;font-weight: 600;">Bachelor Of Technology</h1>
+                    <p style="font-size: 23px;margin-top: 5px;color: rgb(177, 186, 186);">Sree Vidyanikethan Engineering College</p>
+                    <p style="font-size: 17px;margin-top: 5px;color: rgb(177, 186, 186);">Computer Science And Engineering</p>
+                    <p style="font-size: 17px;margin-top: 5px;color: rgb(177, 186, 186);">2021-2015</p><br>
+                </div>
+                <div class="container" style="flex-direction: column;" id="experience">
+                    <p style="font-size: 130%;font-weight:300;">I have done three projects and done virtual internships in digitalbehm and bharat intern</p>
+                    <p style="font-size: 25px;margin-top: 5px;color: #ff004f;">Some of my works</p>
+                    <ul style="font-size: 20px;margin-top: 10px;">
+                        <li style="margin-bottom: 5px;"><a href="https://digibhem-hotel-registrationform.netlify.app/">Hotel Website</a></li>
+                        <li style="margin-bottom: 5px;"><a href="https://genuine-gingersnap-97e911.netlify.app/">Temperature Converter</a></li>
+                        <li style="margin-bottom: 5px;"><a href="https://friendly-trifle-fb07cb.netlify.app/">Netflix page</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="text-align:right;margin-right: 2%;margin-top: 20px;">
+            <a href="#services"><img src="./images/down2.png" style="width: 4%;"></a>
+        </div>
+    </div>
+    <div style="height:5px;width:100%;background-color: rgb(71, 67, 67);"></div>
+<!-- -----services----- -->
+    <div id="services">
+        <centre>
+            <div>
+                <h1 style="font-size: 30px;font-weight: 600;">Services</h1>
+            </div>
+        </centre>
+        <div style="display: flex;margin-top: 5%;width:100%;padding-left: 9%;padding-right:9%;">
+            <div style="margin-left: 10%;" class="ser">
+                <i class="fa-solid fa-code fa-beat"></i>
+                <h1 style="font-size: 23px;margin-bottom: 5%;">FrontEnd Developer</h1>
+                <ul>
+                    <li style="margin-bottom: 10px;font-size: 18px;">Web page development.</li>
+                    <li style="font-size: 18px;">I develop user interface.</li>
+                </ul>
+            </div>
+            <div style="margin-left:4%;" class="ser">
+                <i class="fa-brands fa-java fa-beat"></i>
+                <h1 style="font-size: 23px;margin-bottom: 5%;">Java Developer</h1>
+                <ul>
+                    <li style="margin-bottom: 10px;font-size: 18px;">Delivering high availability and performance.</li>
+                    <li style="font-size: 18px;">Writing well-designed, and efficient code.</li>
+                </ul>
+            </div>
+        </div>
+        <div style="text-align:right;margin-right: 2%;margin-top: 20px;width: 100%;">
+            <a href="#portfolio"><img src="./images/down2.png" style="width: 4%;"></a>
+        </div>
+    </div>
+    <div style="height:5px;width:100%;background-color: rgb(71, 67, 67);"></div>
+<!-- -----portfolio----- -->
+    <div id="portfolio">
+        <centre>
+            <div>
+                <h1>My Work</h1>
+            </div>
+        </centre>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/project.jpeg">
+                <div class="layer">
+                    <h3>Enchanted Hotel</h3>
+                    <p>To book a Hotel room.</p>
+                    <a href="https://digibhem-hotel-registrationform.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/project.jpeg">
+                <div class="layer">
+                    <h3>Temperature Converter</h3>
+                    <p>Website for conversion of temperatures.</p>
+                    <a href="https://genuine-gingersnap-97e911.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/project.jpeg">
+                <div class="layer">
+                    <h3>Netflix Page</h3>
+                    <p>Static page for Netflix.</p>
+                    <a href="https://friendly-trifle-fb07cb.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <div style="text-align:right;margin-right: 2%;margin-top: 20px;width: 100%;">
+            <a href="#contact"><img src="./images/down2.png" style="width: 4%;"></a>
+        </div>  
+    </div>
+    <div style="height:5px;width:100%;background-color: rgb(71, 67, 67);"></div>
+<!-- -----contact----- -->
+    <div id="contact">
+       <div class="contact-left">
+            <h1>Contact me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>  saipriyasambareddy@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>  +91 6309588032</p>
+            <div class="icons">
+                <a href="https://github.com/"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.linkedin.com/in/sambareddy-sai-priya-b698b1276"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/Sai Priya Resume.docx" download class="btn">Download CV</a>
+        </div>    
+       <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder=" Your Name" required>
+                <input type="email" name="email" placeholder=" Your Email" required>
+                <textarea rows="6" placeholder=" Your Message"></textarea>
+                <button type="submit" class="btn2">Submit</button>
+            </form>
+       </div>
+    </div>
+</body>
+</html>
